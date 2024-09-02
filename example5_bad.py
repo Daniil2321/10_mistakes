@@ -1,0 +1,3 @@
+file = open('example.txt', 'r')
+print(file.read())  # работает, но...
+# Мы забыли закрыть файл!
