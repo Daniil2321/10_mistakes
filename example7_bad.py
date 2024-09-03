@@ -1,11 +1,11 @@
-import numpy as np
+from numpy import *
 
 # Создание массива из списка
-arr = np.array([1, 2, 3, 4, 5])
+arr = array([1, 2, 3, 4, 5])
 print(arr)  # [1 2 3 4 5]
 
 # Создание массива с заданными размерами
-arr = np.zeros((3, 4))
+arr = zeros((3, 4))
 print(arr)
 # [[0. 0. 0. 0.]
 #  [0. 0. 0. 0.]
